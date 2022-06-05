@@ -43,6 +43,7 @@ interface Veiculo {
       $("#patio")?.appendChild(row);
 
       if (salva) salvar([...ler(), veiculo]);
+
     }
 
     function remover(placa: string) {
